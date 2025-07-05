@@ -1,0 +1,226 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2C68FF;
+  --color-primary-light: #2C68FF;
+  --color-primary-dark: #2C68FF;
+  --color-gray: #999;
+  --color-gray-light: #F7F8FA;
+  --color-regular: #606266;
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Custom utilities inspired by zan-apps */
+@utility flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@utility flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@utility flex-x-center {
+  display: flex;
+  justify-content: center;
+}
+
+@utility flex-y-center {
+  display: flex;
+  align-items: center;
+}
+
+@utility flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@utility flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility flex-col-stretch {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@utility i-flex-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility i-flex-x-center {
+  display: inline-flex;
+  justify-content: center;
+}
+
+@utility i-flex-y-center {
+  display: inline-flex;
+  align-items: center;
+}
+
+@utility i-flex-col {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+@utility i-flex-col-center {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility i-flex-col-stretch {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@utility flex-1-hidden {
+  flex: 1 1 0%;
+  overflow: hidden;
+}
+
+@utility absolute-lt {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@utility absolute-lb {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@utility absolute-rt {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@utility absolute-rb {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@utility absolute-tl {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@utility absolute-tr {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@utility absolute-bl {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@utility absolute-br {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@utility absolute-center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+@utility fixed-lt {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+@utility fixed-lb {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+@utility fixed-rt {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+@utility fixed-rb {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+@utility fixed-tl {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+@utility fixed-tr {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+@utility fixed-bl {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+@utility fixed-br {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+@utility fixed-center {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+@utility nowrap-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@utility ellipsis-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} 
