@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist-electron",
+    "module": "nodenext",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "types": ["node", "electron"],
+    "strict": true,
+    "moduleResolution": "nodenext",
+    "allowJs": true
+  },
+  "include": ["main.ts"]
+}

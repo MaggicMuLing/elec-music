@@ -1,0 +1,36 @@
+{
+  "name": "elec-music",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "name": "lilusheng",
+    "email": "maggic717@gmail.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "electron:build-main": "tsc -p .electron/tsconfig.json",
+    "electron:dev": "npm run electron:build-main && npx concurrently \"vite\" \"wait-on http://localhost:5173 && electron ./dist-electron/main.js\"",
+    "electron:build": "vite build && electron-builder"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^5.81.5",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "concurrently": "^8.2.2",
+    "electron": "^30.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^2.2.10",
+    "wait-on": "^7.0.1"
+  },
+  "volta": {
+    "node": "22.15.1"
+  }
+}
