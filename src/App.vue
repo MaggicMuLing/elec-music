@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import TailwindDemo from './components/TailwindDemo.vue'
 </script>
 
 <template>
-  <TailwindDemo />
+  <RouterView />
 </template>
 
 <style scoped>
