@@ -1,3 +1,9 @@
+
+<script lang="ts" setup>
+const clicka = () => {
+  alert('按钮被点击了');
+};
+</script>
 <template>
   <v-container class="fill-height" fluid>
     <v-row align="center" justify="center">
@@ -10,12 +16,12 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-btn color="primary" @click="clicka()">
+      前往下一步
+    </v-btn>
   </v-container>
 </template>
 
-<script lang="ts" setup>
-// 这里可以引入更多逻辑
-</script>
 
 <style scoped>
 </style>
