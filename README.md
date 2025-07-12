@@ -7,7 +7,7 @@
 - ✅ Vue 3 + TypeScript + Vite
 - ✅ Electron 桌面应用
 - ✅ TailwindCSS 4.x 完整集成（CSS-first 配置）
-- ✅ 自定义工具类（参考 zan-apps 项目）
+- ✅ 自定义工具类
 - ✅ VS Code 智能提示支持
 - ✅ 响应式设计支持
 - ✅ 高性能引擎（构建速度提升 3.5x+）
@@ -60,8 +60,7 @@ elec-music/
 - 更快的开发服务器热更新
 
 ## 🎨 自定义工具类
-
-参考 zan-apps 项目，集成了以下自定义工具类：
+集成了以下自定义工具类：
 
 ### 布局工具类
 - `flex-center` - 水平垂直居中

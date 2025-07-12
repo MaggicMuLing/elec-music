@@ -16,10 +16,13 @@
     "electron:build": "vite build && electron-builder"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "@tanstack/vue-query": "^5.81.5",
     "pinia": "^3.0.3",
+    "vite-plugin-vuetify": "^2.1.1",
     "vue": "^3.5.17",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vuetify": "^3.8.12"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
